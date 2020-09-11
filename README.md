@@ -32,17 +32,19 @@ A .net core application which reads the data from the Cosmos DB using change fee
 Based on the 'Host' type data get’s redirected to KafkaEventHub or Cosmos. So, consumers can read from events from the respecive setting host setting.
 #### How to pick one vs the other?
 There is no one solution which fits for all scenarios. It depends on what an application needs and how we want to use the data. Here are the couple areas which can help with decision making:
-**Throughput Needs:** How many messages and topics?
-**Query:** Do you need query support to do aggregation etc.?
-**Ops Log:** Cosmos doesn’t have ops log now but it’s on road map so application may miss intermediate messages. Is this important?
-**Distributed aspects**: HA, Scale Data consistency and Backups etc.
+
+* **Throughput Needs:** How many messages and topics?
+* **Query:** Do you need query support to do aggregation etc.?
+* **Ops Log:** Cosmos doesn’t have ops log now but it’s on road map so application may miss intermediate messages. Is this important?
+* **Distributed aspects**: HA, Scale Data consistency and Backups etc.
+
 #### Running the sample:
 ##### Prerequisites:
 1.	CosmosDB Sql API account, if don’t have one please install local emulator using this [download link](https://docs.microsoft.com/en-us/azure/cosmos-db/local-emulator-release-notes)
 2.	Kafka Event hub if you plan to use writes to Kafka which uses Confluent SDK.
-Clone this repo and build it in Visual studio 2019 community version which requires .Net Core.
-After successful build, open a command prompt and run the producer exe: Cosmos.EventsProcessing.Producer.exe (will located in this folder: CosmosDBEventProcessingPatterns\Cosmos.EventsProcessing.Producer\bin\Debug\netcoreapp3.1)
-Now the run the pipeline project from the Visual studio itself to see end to end.
+* Clone this repo and build it in Visual studio 2019 community version which requires .Net Core.
+* After successful build, open a command prompt and run the producer exe: Cosmos.EventsProcessing.Producer.exe (will located in this folder: CosmosDBEventProcessingPatterns\Cosmos.EventsProcessing.Producer\bin\Debug\netcoreapp3.1)
+* Now the run the pipeline project from the Visual studio itself to see end to end.
 #### Settings:
 * **cosmosProducerSettings** – Events source information.
 * **consumerRouterSettings** - Router settings which includes redirecting data to Cosmos or Kafka Eventhub.
