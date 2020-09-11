@@ -1,0 +1,20 @@
+{
+  "producer-Endpoint": "https://localhost:8081",
+  "producer-AuthKey": "C2y6yDjf5/R+ob0N8A7Cgv30VRDJIWEHLM+4QDU5DE2nQ9nDuVTqobD4b8mGGyPMbIZnqyMsEcaGQy67XIw/Jw==",
+  "producer-Database": "producerdb",
+  "producer-Container": "producercoll",
+  "producer-PartitionKeyPath": "/id",
+  "producer-CreateIfDatabaseNotExists": "true",
+  "producer-CreateIfContainerNotExists": "true",
+  "producer-DeleteIfDatabaseExists": "false",
+  "producer-DeleteIfContainerExists": "true",
+  "lease-Endpoint": "https://localhost:8081",
+  "lease-AuthKey": "C2y6yDjf5/R+ob0N8A7Cgv30VRDJIWEHLM+4QDU5DE2nQ9nDuVTqobD4b8mGGyPMbIZnqyMsEcaGQy67XIw/Jw==",
+  "lease-Database": "leasedb",
+  "lease-Container": "leasecoll",
+  "lease-PartitionKeyPath": "/id",
+  "lease-CreateIfDatabaseNotExists": "true",
+  "lease-CreateIfContainerNotExists": "true",
+  "lease-DeleteIfDatabaseExists": "false",
+  "lease-DeleteIfContainerExists": "true"
+}

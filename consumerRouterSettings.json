@@ -1,0 +1,5 @@
+{
+  "EnableIndividualTopicsRouting": true,
+  "WhiteListedTopics": "topic-1|topic-2",
+  "Host": "Kafka"
+}

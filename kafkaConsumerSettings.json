@@ -1,0 +1,7 @@
+{
+  "consumer-brokerList-EH_FQDN": "skarrievents.servicebus.windows.net:9093",
+  "consumer-SaslPassword-EH_CONNECTION_STRING": "Endpoint=key",
+  "consumer-Default-Topic-EH_NAME": "skarrieventhub",
+  "consumer-Group": "$Default",
+  "consumer-CA_CERT_LOCATION": ".\\cacert.pem"
+}
