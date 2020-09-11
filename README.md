@@ -40,11 +40,12 @@ There is no one solution which fits for all scenarios. It depends on what an app
 
 #### Running the sample:
 ##### Prerequisites:
-1.	CosmosDB Sql API account, if don’t have one please install local emulator using this [download link](https://docs.microsoft.com/en-us/azure/cosmos-db/local-emulator-release-notes)
-2.	Kafka Event hub if you plan to use writes to Kafka which uses Confluent SDK.
-* Clone this repo and build it in Visual studio 2019 community version which requires .Net Core.
-* After successful build, open a command prompt and run the producer exe: Cosmos.EventsProcessing.Producer.exe (will located in this folder: CosmosDBEventProcessingPatterns\Cosmos.EventsProcessing.Producer\bin\Debug\netcoreapp3.1)
-* Now the run the pipeline project from the Visual studio itself to see end to end.
+* CosmosDB Sql API account, if don’t have one please install local emulator using this [download link](https://docs.microsoft.com/en-us/azure/cosmos-db/local-emulator-release-notes)
+* Kafka Event hub if you plan to use writes to Kafka which uses Confluent SDK.
+##### Steps:
+1. Clone this repo and build it in Visual studio 2019 community version which requires .Net Core.
+2. After successful build, open a command prompt and run the producer exe: Cosmos.EventsProcessing.Producer.exe (will located in this folder: CosmosDBEventProcessingPatterns\Cosmos.EventsProcessing.Producer\bin\Debug\netcoreapp3.1)
+3. Now the run the pipeline project from the Visual studio itself to see end to end.
 #### Settings:
 * **cosmosProducerSettings** – Events source information.
 * **consumerRouterSettings** - Router settings which includes redirecting data to Cosmos or Kafka Eventhub.
