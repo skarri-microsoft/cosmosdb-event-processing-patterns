@@ -1,4 +1,4 @@
-﻿namespace Cosmos.EventsProcessing.App
+﻿namespace Cosmos.EventsProcessing.Pipeline
 {
     using System;
     using System.Collections.Generic;

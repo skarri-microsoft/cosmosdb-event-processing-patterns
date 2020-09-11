@@ -1,4 +1,4 @@
-﻿namespace Cosmos.EventsProcessing.SampleEvents
+﻿namespace Cosmos.EventsProcessing.Producer
 {
     using Cosmos.EventsProcessing.Core;
     using Microsoft.Azure.Cosmos;

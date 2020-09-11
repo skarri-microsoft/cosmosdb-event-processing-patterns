@@ -5,9 +5,9 @@ VisualStudioVersion = 16.0.30105.148
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cosmos.EventsProcessing.Core", "Cosmos.EventsProcessing.Core\Cosmos.EventsProcessing.Core.csproj", "{C920D352-ED4D-4346-939F-8F8177A6F306}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cosmos.EventsProcessing.App", "Cosmos.EventsProcessing.App\Cosmos.EventsProcessing.App.csproj", "{B771F57A-D1B3-4622-89B1-0389E69D8CAF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cosmos.EventsProcessing.Pipeline", "Cosmos.EventsProcessing.Pipeline\Cosmos.EventsProcessing.Pipeline.csproj", "{B771F57A-D1B3-4622-89B1-0389E69D8CAF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cosmos.EventsProcessing.SampleEvents", "Cosmos.EventsProcessing.SampleEvents\Cosmos.EventsProcessing.SampleEvents.csproj", "{689E2A5C-DB8A-41EB-9C74-19DB80BEE39E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cosmos.EventsProcessing.Producer", "Cosmos.EventsProcessing.Producer\Cosmos.EventsProcessing.Producer.csproj", "{689E2A5C-DB8A-41EB-9C74-19DB80BEE39E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cosmos.EventsProcessing.KafaWriter", "Cosmos.EventsProcessing.KafaWriter\Cosmos.EventsProcessing.KafaWriter.csproj", "{67921784-E10C-4671-A656-6A6A538D961D}"
 EndProject
